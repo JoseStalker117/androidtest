@@ -28,4 +28,8 @@ public class a2 extends AppCompatActivity {
         TextView Texto = findViewById(R.id.textView);
         Texto.setText("Esta es una modificación del texto");
     }
+
+    public void inicio(View view) {
+        finish();
+    }
 }

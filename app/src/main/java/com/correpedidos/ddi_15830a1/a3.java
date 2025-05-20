@@ -32,4 +32,8 @@ public class a3 extends AppCompatActivity {
         TextView texto = findViewById(R.id.textView);
         texto.setText("La suma asciende a: " + contador);
     }
+
+    public void inicio(View view) {
+        finish();
+    }
 }

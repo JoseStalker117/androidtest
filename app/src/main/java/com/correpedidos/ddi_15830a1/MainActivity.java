@@ -1,6 +1,8 @@
 package com.correpedidos.ddi_15830a1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,20 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Intent1(View view) {
+        Intent intent = new Intent(this, a1.class);
+        startActivity(intent);
+    }
+
+    public void Intent2(View view) {
+        Intent intent = new Intent(this, a2.class);
+        startActivity(intent);
+    }
+
+    public void Intent3(View view) {
+        Intent intent = new Intent(this, a3.class);
+        startActivity(intent);
     }
 }

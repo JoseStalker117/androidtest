@@ -27,4 +27,8 @@ public class a1 extends AppCompatActivity {
     public void tstmsg(View view) {
         Toast.makeText(this, "Este es un mensaje toast del sistema", Toast.LENGTH_LONG).show();
     }
+
+    public void inicio(View view) {
+        finish();
+    }
 }
